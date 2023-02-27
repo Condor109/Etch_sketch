@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Permanent";
+  src: url(./fonts/Permanent.ttf);
+}
+
+body{
+  background-color: rgba(255, 255, 255, 0.767);
+}
+
+h1{
+  color: rgb(35, 31, 100);
+  font-family: "Permanent";
+}
+
+div.main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main .dmain_1{
+  display: flex;
+  flex-direction: column;
+}
+
+.dmain_1 div{
+  margin: 10px 20px 10px;
+}
+
+button{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  background-color: transparent;
+  font-family: permanent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
