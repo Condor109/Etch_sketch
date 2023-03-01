@@ -4,30 +4,31 @@
     <meta charset="utf-8">
     <title>SKETCH</title>
     <link rel="stylesheet" href="style.css">
+    <script src="div_random.js" defer></script>
   </head> 
   <body>
   <h1>Etch A Sketch</h1>
   <div class="main">
     <div class="dmain_1">
       <div>
-        <input type="color"><p>PEN COLOR</p>
-        <input type="color"><p>BACKGROUND COLOR</p>
+        <span id="s_1"><input type="color"></span>
       </div>  
       <div>
-        <button>COLOR</button>
         <button>RAINBOW</button>
         <button>ERASER</button>
+        <button>FILL</button>
         
       </div>
       <div>
         <button>SHADOW</button>
         <button>LIGHT</button>
       </div>
-      <div>
-        <input type="range">
-        <button>FILL</button>
+      <div style="display: flex; flex-direction: column; justify-content: center;">
+        <input type="range">  
+        <button>SQUARES</button>
         <button>CLEAR</button>
       </div>
+      
     </div>
     <div class="dmain_2">
       
