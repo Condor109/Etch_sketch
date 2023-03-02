@@ -3,12 +3,10 @@
   src: url(./fonts/Permanent.ttf);
 }
 
-button:focus{
-  background-color: rgba(188, 177, 219, 0.425);
-}
+
 
 body{
-  background-color: rgba(255, 255, 255, 0.767);
+  background-color: rgba(199, 194, 194, 0.767);
 }
 
 h1{
@@ -33,7 +31,9 @@ div.main{
   flex-direction: column;
   width: 750px;
   height: 750px;
-  border: 2px solid black;
+  flex-shrink: 0;
+  background-color: white;
+  box-shadow: 10px 10px  rgba(168, 163, 163, 0.76);
 }
 
 .main .dmain_1{
@@ -84,10 +84,10 @@ button{
   width: 100%;
   flex: 1;
   flex-direction: row;
+  
 }
 
 .dmain_2 div div{
   border: solid 0px transparent;
 }
-
 
