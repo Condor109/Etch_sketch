@@ -4,9 +4,16 @@
 }
 
 
-
+html{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
 body{
   background-color: rgba(199, 194, 194, 0.767);
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
 }
 
 h1{
